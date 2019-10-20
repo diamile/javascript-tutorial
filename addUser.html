@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    .error{
+        background-color:red;
+    }
+   .list{
+       height:30px;
+      
+   }
+</style>
+<body>
+
+<h1 class="text-center">Add User</h1>
+   <div id="msg">
+    
+  </div>
+<form id="my-form">
+    <fieldset>
+      
+      <div class="form-group">
+        <label for="inputName">Name</label>
+        <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp" placeholder="Enter Name">
+      </div>
+      <div class="form-group">
+        <label for="inputEmail">Email address</label>
+        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+
+      </fieldset>
+      <button type="submit" class="btn btn-primary" id="button">Submit</button>
+    </fieldset>
+  </form>
+
+
+  <div id="users">
+  </div>
+
+<script src="addUser.js"></script>
+</body>
+</html>
